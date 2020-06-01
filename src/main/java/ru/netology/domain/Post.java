@@ -65,8 +65,8 @@ public class Post {
         return text;
     }
 
-    public void setTeXt(String test) {
-        this.text = test;
+    public void setTeXt(String text) {
+        this.text = text;
     }
 
 
