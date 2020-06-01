@@ -12,6 +12,11 @@ public class Post {
     private String id;
     private String groupName;
     private int can_edit;
+    private int can_delete;
+    private int can_pin;
+    private int from_id;
+    private String geo;
+    private String text;
 
     public int getCan_edit() {
         return can_edit;
@@ -37,8 +42,7 @@ public class Post {
         this.can_pin = can_pin;
     }
 
-    private int can_delete;
-    private int can_pin;
+
     public int getFrom_id() {
         return from_id;
     }
@@ -55,18 +59,17 @@ public class Post {
         this.geo = geo;
     }
 
-    private int from_id;
-    private String geo;
 
-    public String getTest() {
-        return test;
+
+    public String getText() {
+        return text;
     }
 
-    public void setTest(String test) {
-        this.test = test;
+    public void setTeXt(String test) {
+        this.text = test;
     }
 
-    private String test;
+
 
     public String getId() {
         return id;

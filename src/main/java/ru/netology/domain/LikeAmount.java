@@ -2,6 +2,7 @@ package ru.netology.domain;
 
 public class LikeAmount {
     private int count;
+    private boolean canPost;
 
     public int getCount() {
         return count;
@@ -19,5 +20,5 @@ public class LikeAmount {
         this.canPost = canPost;
     }
 
-    private boolean canPost;
+
 }

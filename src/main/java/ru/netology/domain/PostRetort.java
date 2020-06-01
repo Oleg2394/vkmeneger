@@ -1,6 +1,10 @@
 package ru.netology.domain;
 
 public class PostRetort {
+
+    private int count;
+    private boolean canPost;
+
     public int getCount() {
         return count;
     }
@@ -17,6 +21,5 @@ public class PostRetort {
         this.canPost = canPost;
     }
 
-    private int count;
-    private boolean canPost;
+
 }
